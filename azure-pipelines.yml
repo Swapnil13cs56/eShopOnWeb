@@ -18,7 +18,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    projects: '/app/src/Web/*.csproj'
+    projects: '/src/Web/Web.csproj'
     feedsToUse: 'select'
 
 - task: DotNetCoreCLI@2
